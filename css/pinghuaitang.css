@@ -3,7 +3,7 @@ html,body {text-align: center;margin:0;padding:0px;overflow-x:hidden !important;
 body{width: 100%;text-align: center;}
 a,input,button {outline:none;border:none;text-decoration:none ;-webkit-tap-highlight-color:transparent;}
 li,ul {list-style:none;}
-
+ul{padding: 0;margin: 0;}	
 
 .TextE1{white-space: nowrap;text-overflow: ellipsis;overflow: hidden !important;}
 .TextE2{word-break: break-all;text-overflow: ellipsis;display: -webkit-box;-webkit-box-orient : vertical;-webkit-line-clamp: 2;overflow: hidden !important;}
@@ -94,8 +94,14 @@ to {top:178px;}
 .copy_button{display: block;padding: 0px 10px;border-radius: 5px;margin: 5px auto;line-height: 40px;font-size: 20px;color: #fff;background-color: #09BB07;}
 .copy_button a{color: #fff !important;}
 .copy_button:active{opacity: 0.5;}
-
-
+.promise{height: 160px;line-height: 160px;font-family: STXingkai;color: #cda766;font-size: 70px;}
+.mm{overflow: hidden;width: 1100px;margin:auto;background: white;}
+.mm li{float:left;width: 25%;padding: 1px;box-sizing: border-box;height: 412px;}
+.mm li img{width: 100%;}
+.koubei{background: #d2a56a;width: 1100px;margin:auto;}
+.koubei .good{font-size: 75px;font-family: KaiTi;font-weight: bold;padding-top: 30px;}
+.koubei .view{font-family: KaiTi;font-weight: bold;font-size: 40px;;padding: 15px;}
+.web_bottom_warp{margin-top: 30px;}
 /* ↓↓↓ 响应式设计媒体查询手机端样式 ↓↓↓ */
  @media screen and (max-width: 768px) {
    body{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
@@ -115,7 +121,7 @@ to {top:178px;}
    .web_banner_mobile{display: block;width: 100%;margin: 0 auto;}
    .web_banner2{display: block;width: 700px;position: relative;left: 50%;margin-left: -350px;margin-top: 20px;}
 
-   .web_img_warp{display: block;width: 100%;text-align: center;background-color: #a91a01;padding:  0px;text-align: center;overflow: hidden !important;}
+   .web_img_warp{display: block;width: 100%;text-align: center;padding:  0px;text-align: center;overflow: hidden !important;}
    .web_img{width: 100%;display: block;margin: 0 auto;}
    .web_img_button_warp{width: 100%;margin: 0px auto;padding:10px 0px 60px;display: -webkit-box;display: -webkit-flex;display: flex;flex-wrap: wrap;-webkit-flex-wrap: wrap;}
    .web_img_button{width: 150px;height: 30px;margin:10px 0px;-webkit-box-flex: auto;-webkit-flex: auto;flex: auto;text-align: center;}
@@ -152,4 +158,11 @@ to {top:178px;}
    .web_bottom_warp .p1{font-size: 15px;margin-top: 15px;}
    .web_bottom_warp .p2{font-size: 13px;margin-top: 20px;}
    .web_bottom_warp .p3{font-size: 13px;margin-top: 20px;}
+   .promise{height: 40px;line-height: 40px;font-family: STXingkai;color: #cda766;font-size: 20px;}
+   .mm {overflow: hidden;padding: 1px;background: white;width: 100%;}
+   .mm li{float:left;width: 25%;padding: 1px;box-sizing: border-box;height: auto;;}
+   .koubei{background: #d2a56a;width:100%;margin:auto;}
+   .koubei .good{font-size: 20px;font-family: KaiTi;font-weight: bold;padding-top: 5px;}
+   .koubei .view{font-family: KaiTi;font-weight: bold;font-size: 14px;padding: 5px;}
+   .web_bottom_warp{margin-top: 15px;}
 }
