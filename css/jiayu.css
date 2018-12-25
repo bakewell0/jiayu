@@ -35,7 +35,7 @@ ul{padding: 0;margin: 0;}
 .web_img_button:hover img {opacity: 1;}
 
 .web_content_warp{background-color: #fff;width: 100%;margin: 10px auto;}
-.web_content_warp h1{width: 1000px;margin: 10px auto;padding: 50px 50px 10px;font-size: 36px;color: #333;text-align: left;display: block;}
+.web_content_warp h1{width: 1000px;margin:auto;padding:20px;color: #333;text-align: left;display: block;font-weight: normal;font-size: 20px;padding: 20px 50px 0 50px;}
 .web_content{width: 1000px;margin: 0px auto;padding: 10px 50px;color: #333;font-size: 18px;line-height: 200%;text-align: left;}
 .web_content_warp img{width: 560px;display: inline-block;margin: 20px 0px;}
 
@@ -102,6 +102,18 @@ to {top:178px;}
 .koubei .good{font-size: 75px;font-family: KaiTi;font-weight: bold;padding-top: 30px;}
 .koubei .view{font-family: KaiTi;font-weight: bold;font-size: 40px;;padding: 15px;}
 .web_bottom_warp{margin-top: 30px;}
+
+.newsec{background: white;padding: 0 5px 100px 5px;}
+.newsTi{text-align: left;width: 1000px;margin: auto;color: #333;padding-top: 20px;font-size: 20px;}
+.list{margin: 0;padding: 0;}
+.list li{width: 1000px;margin: 20px auto;height: 140px;overflow: hidden;position: relative;}
+.list li img{width: 180px;height: 140px;float:left}
+.list li .text{float: left;width: 820px;padding: 0 15px;box-sizing: border-box;text-align: left;color:white;height: 140px;}			
+.list li .text a{color: #333333;}
+.text .title{}
+.text .desp{margin-top: 10px;text-align: justify;}
+.list li .origin{position: absolute;bottom: 0;opacity: 0.9;font-size: 12px;}
+
 /* ↓↓↓ 响应式设计媒体查询手机端样式 ↓↓↓ */
  @media screen and (max-width: 768px) {
    body{overflow-y:scroll;-webkit-overflow-scrolling:touch;}
@@ -149,10 +161,10 @@ to {top:178px;}
    .order_form{margin: 0px auto;height: 1410px;}
 
    .web_content_warp{background-color: #fff;width: 100%;margin: 10px auto;}
-   .web_content_warp h1{width: 1000px;margin: 10px auto;padding: 50px 40px 10px;font-size: 24px;color: #333;text-align: left;display: block;}
+   .web_content_warp h1{width: 1000px;margin: auto;padding: 15px 5px 5px 5px;font-size: 18px;color: #333;text-align: left;display: block;font-weight: normal;}
    .web_content_warp img{width: 100%;display: inline-block;margin: 20px 0px;}
 
-   .web_content{width: 100%;margin: 10px auto;padding:15px 40px;color: #333;font-size: 18px;line-height: 200%;text-align: left;}
+   .web_content{width: 100%;padding:5px;color: #333;font-size: 16px;line-height: 175%;text-align: left;}
 	
    .web_bottom_warp{display: block;width: 100%;text-align: center;overflow: hidden !important;position: relative;color: white;opacity: 0.7;letter-spacing: 4px;font-family: STXingkai;}
    .web_bottom_warp .p1{font-size: 15px;margin-top: 15px;}
@@ -167,4 +179,15 @@ to {top:178px;}
    .web_bottom_warp{margin-top: 15px;}
    .to-top{bottom: 70px!important;right: 0px!important;}
    .to-top img { width: 30px;height: 30px;border-radius: 2px;overflow: hidden !important;}
+   	
+   	.newsec{background: white;padding: 0 5px 10px 5px;}
+   	.newsTi{text-align: left;width: 1000px;margin: auto;color: #333;padding-top: 15px;font-size: 18px;}
+    .list{margin: 0;padding: 0;}
+	.list li{width: 100%;margin: 20px auto;height: 140px;overflow: hidden;position: relative;}
+	.list li img{width:50%;height: 140px;float:left}
+	.list li .text{float: left;width:50%;padding: 0 5px;box-sizing: border-box;text-align: left;color:white;height: 140px;font-size: 16px;}			
+	.list li .text a{color: #333333;}
+	.text .title{display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+	.text .desp{margin-top: 10px;text-align: justify;display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 2;overflow: hidden;}
+	.list li .origin{position: absolute;bottom: 0;opacity: 0.9;font-size: 12px;}
 }
